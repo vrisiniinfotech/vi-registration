@@ -1,0 +1,40 @@
+{
+	"name":"vrisini/vi-registration",
+	"description":"Erweitern Sie die Contao-Registrierung um erweiterte Funktionen wie die codebasierte E-Mail-Validierung, etc.",
+	"keywords":["contao","registrierung","E-Mail-Validierung","form","codebasierte","vrisini"],
+	"type":"contao-bundle",
+	"homepage":"https://www.vrisini.de",
+	"license":"MIT",
+	"authors":[
+		{
+			"name": "Anupam Chatterjee",
+			"email": "anupam@vrisini.de",
+			"homepage": "https://www.vrisini.de",
+			"role": "Developer"
+		}
+	],
+	"support": {
+        "email": "info@vrisini.com"
+    },
+	"require":{
+		"php":">=5.6",
+		"contao/core-bundle":"^4.3"
+	},
+	"autoload":{
+		"psr-4": {
+			"Vrisini\\ViRegistration\\": "src/"
+		},
+		"classmap": [
+		    "src/Resources/contao/"
+		],
+		"exclude-from-classmap": [
+		    "src/Resources/contao/config/",
+		    "src/Resources/contao/dca/",
+		    "src/Resources/contao/languages/",
+		    "src/Resources/contao/templates/"
+		]
+	},
+	"extra": {
+		"contao-manager-plugin": "Vrisini\\ViRegistration\\ContaoManager\\Plugin"
+	}
+}
