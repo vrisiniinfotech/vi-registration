@@ -1,11 +1,10 @@
 {
-	"name":"vrisiniinfotech/vi-registration",
+	"name":"vrisini/vi-registration",
 	"description":"Erweitern Sie die Contao-Registrierung um erweiterte Funktionen wie die codebasierte E-Mail-Validierung, etc.",
 	"keywords":["contao","registrierung","E-Mail-Validierung","form","codebasierte","vrisini"],
 	"type":"contao-bundle",
 	"homepage":"https://www.vrisini.de",
 	"license":"MIT",
-	"version":"1.0.1",
 	"authors":[
 		{
 			"name": "Anupam Chatterjee",
