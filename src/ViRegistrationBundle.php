@@ -9,7 +9,7 @@
  * @link       https://github.com/vrisiniinfotech/vi-registration
  */
 
-namespace Vrisini\ViRegistrationBundle;
+namespace Vrisiniinfotech\ViRegistrationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

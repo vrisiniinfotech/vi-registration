@@ -43,11 +43,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Vrisini\\ViRegistrationBundle\\": "src/"
+            "Vrisiniinfotech\\ViRegistrationBundle\\": "src/"
         }
     },
     "extra": {
-        "contao-manager-plugin": "Vrisini\\ViRegistrationBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Vrisiniinfotech\\ViRegistrationBundle\\ContaoManager\\Plugin"
     },
     "minimum-stability":"dev",
     "prefer-stable":true

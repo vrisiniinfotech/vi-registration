@@ -1,6 +1,6 @@
 services:
-    vrisini.viregistration.listener.registration:
-        class: Vrisini\ViRegistrationBundle\EventListener\RegistrationListener
+    vrisiniinfotech.viregistration.listener.registration:
+        class: Vrisiniinfotech\ViRegistrationBundle\EventListener\RegistrationListener
         arguments:
             - '@contao.security.frontend_user_provider'
             - '@security.token_storage'
@@ -12,4 +12,4 @@ services:
             - '@contao.security.authentication_success_handler'
         tags:
             - { name: 'contao.hook', hook: 'createNewUser' }
-            - { name: 'monolog.logger', channel: 'vrisini_viregistration' }
+            - { name: 'monolog.logger', channel: 'vrisiniinfotech_viregistration' }

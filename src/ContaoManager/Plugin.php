@@ -9,13 +9,13 @@
  * @link       https://github.com/vrisiniinfotech/vi-registration
  */
 
-namespace Vrisini\ViRegistrationBundle\ContaoManager;
+namespace Vrisiniinfotech\ViRegistrationBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Vrisini\ViRegistrationBundle\ViRegistrationBundle;
+use Vrisiniinfotech\ViRegistrationBundle\ViRegistrationBundle;
 
 class Plugin implements BundlePluginInterface
 {

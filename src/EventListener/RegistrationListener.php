@@ -9,7 +9,7 @@
  * @link       https://github.com/vrisiniinfotech/vi-registration
  */
 
-namespace Vrisini\ViRegistrationBundle\EventListener;
+namespace Vrisiniinfotech\ViRegistrationBundle\EventListener;
 
 use Contao\CoreBundle\Monolog\ContaoContext;
 use Contao\FrontendUser;

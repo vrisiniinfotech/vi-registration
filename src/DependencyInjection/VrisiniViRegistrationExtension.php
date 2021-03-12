@@ -9,14 +9,14 @@
  * @link       https://github.com/vrisiniinfotech/vi-registration
  */
 
-namespace Vrisini\ViRegistrationBundle\DependencyInjection;
+namespace Vrisiniinfotech\ViRegistrationBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class VrisiniViRegistrationExtension extends Extension
+class VrisiniinfotechViRegistrationExtension extends Extension
 {
     /**
      * {@inheritdoc}
