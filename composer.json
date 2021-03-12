@@ -6,6 +6,8 @@
 	"homepage":"https://www.vrisini.de",
 	"license":"MIT",
 	"version":"2.0.0",
+    "minimum-stability":"dev",
+    "prefer-stable":true,
 	"authors":[
 		{
 			"name": "Anupam Chatterjee",
@@ -21,17 +23,7 @@
     },
     "require": {
         "php": "^7.1",
-        "contao/core-bundle": "^4.5",
-        "doctrine/dbal": "^2.7",
-        "psr/log": "^1.0",
-        "symfony/config": "^3.3 || ^4.0",
-        "symfony/dependency-injection": "^3.3 || ^4.0",
-        "symfony/event-dispatcher": "^3.3 || ^4.0",
-        "symfony/http-foundation": "^3.3 || ^4.0",
-        "symfony/http-kernel": "^3.3 || ^4.0",
-        "symfony/security-core": "^3.3 || ^4.0",
-        "symfony/security-http": "^3.3 || ^4.0",
-        "composer/package-versions-deprecated": ">=1.0"
+        "contao/core-bundle": "^4.5"
     },
     "require-dev": {
         "contao/manager-plugin": "~2.0",
@@ -46,9 +38,12 @@
             "Vrisiniinfotech\\ViRegistrationBundle\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Vrisiniinfotech\\ViRegistrationBundle\\": "src/"
+        }
+    },
     "extra": {
         "contao-manager-plugin": "Vrisiniinfotech\\ViRegistrationBundle\\ContaoManager\\Plugin"
-    },
-    "minimum-stability":"dev",
-    "prefer-stable":true
+    }
 }
