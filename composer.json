@@ -1,5 +1,5 @@
 {
-	"name":"vrisini/vi-registration",
+	"name":"vrisiniinfotech/vi-registration",
 	"description":"Erweitern Sie die Contao-Registrierung um erweiterte Funktionen wie die codebasierte E-Mail-Validierung, etc.",
 	"keywords":["contao","registrierung","E-Mail-Validierung","form","codebasierte","vrisini"],
 	"type":"contao-bundle",
